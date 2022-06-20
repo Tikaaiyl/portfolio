@@ -3,6 +3,11 @@ body {
     color: #ffffff;
 }
 
+h1 {
+    font-family: Arial;
+    font-weight: 700;
+}
+
 #btn-front {
     margin-top: 20px;
     padding: 14px 14px 14px 14px;
