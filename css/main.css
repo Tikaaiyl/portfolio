@@ -6,6 +6,7 @@ body {
 h1 {
     font-family: Arial;
     font-weight: 700;
+    text-align: center;
 }
 
 #btn-front {
