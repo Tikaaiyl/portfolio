@@ -10,6 +10,7 @@ body {
     color: #ffffff;
     font-weight: bold;
     font-family: Arial;
+    border: 3px outset;
 }
 
 .row {
