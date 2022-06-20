@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>javatest</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <h1>TEST HEADER</h1>
+
+    <div class="row">
+        <div class="column">
+            <button id="discobtn" class="button">Reset</button>
+        </div>
+    </div>
+
+    <div id="discoblock"></div>
+
+    <script>
+        // variable to store HTML elements
+        const divEl = document.getElementById('discoblock');
+        const resetBtn = document.querySelector('#discobtn');
+
+        let degrees = 0;
+
+        // function that responds to an event
+        function onChange(event) {
+            const percentX = event.offsetX / 396;
+            const percentY = event.offsetY / 396;
+            const red = percentX * 255;
+            const blue = percentY * 255;
+
+        // change the html elements style in the function created
+            divEl.style.backgroundColor = `rgb(${red}, 0, ${blue})`;
+            // alert('this works');
+            divEl.style.borderRadius = `${percentX * 50}%`;
+            degrees += event.movementY;
+            divEl.style.transform = `translateX(-50%) rotate(${degrees}deg)`;
+        }
+
+        function reset() {
+            divEl.style.backgroundColor = '#FFF';
+            divEl.style.transform = `translateX(-50%)`;
+            divEl.style.borderRadius = `0`;
+            degrees = 0;
+        }
+
+        // attach function to event listener
+        divEl.addEventListener('mousemove', onChange);
+        resetBtn.addEventListener('click', reset);
+
+    </script>
+
+</body>
+</html>
