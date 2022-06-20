@@ -6,3 +6,10 @@ body {
 #btn-front {
     padding: 7px 7px 7px 7px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
