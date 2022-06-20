@@ -4,7 +4,8 @@ body {
 }
 
 #btn-front {
-    padding: 7px 7px 7px 7px;
+    margin-top: 20px;
+    padding: 14px 14px 14px 14px;
     background-color: #314176;
     color: #ffffff;
     font-weight: bold;
