@@ -11,6 +11,18 @@ body {
     font-weight: bold;
     font-family: Arial;
     border: 3px outset;
+    transition-duration: 0.4s;
+}
+
+#btn-front:hover {
+    margin-top: 20px;
+    padding: 14px 14px 14px 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Arial;
+    border: 3px outset #314176;
+    transition-duration: 0.4s;
 }
 
 .row {
