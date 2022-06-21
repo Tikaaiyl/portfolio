@@ -30,6 +30,7 @@ body {
 }
 
 .screen {
+    margin-top: 7px;
     width: 430px;
     height: 600px;
     background: #9f9f9f;
