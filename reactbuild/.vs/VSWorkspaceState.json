@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Components",
+    "\\src\\Components\\Card",
+    "\\src\\Components\\Contact",
+    "\\src\\Components\\FloatingDiv",
+    "\\src\\Components\\Footer",
+    "\\src\\Components\\Intro",
+    "\\src\\Components\\Navbar",
+    "\\src\\Components\\Testimonials"
+  ],
+  "SelectedNode": "\\package.json",
+  "PreviewInSolutionExplorer": false
+}

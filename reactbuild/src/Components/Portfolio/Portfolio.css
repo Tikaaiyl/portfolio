@@ -1,0 +1,51 @@
+/*installed swiper through 'npm add swiper'*/
+
+.Portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+}
+
+.Portfolio span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+    .Portfolio span:nth-of-type(2) {
+        color: var(--orange);
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+
+.swiper .swiper {
+    overflow: visible !important;
+}
+
+.swiper-slider {
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.swiper-slider .swiper-slide {
+    width: 20rem;
+}
+
+.swiper img {
+    width: 19rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+}
+
+@media screen and (max-width: 480px) {
+    .Portfolio {
+        flex-direction: column;
+        height: 5rem;
+        padding: 0;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+}
