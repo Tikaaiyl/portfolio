@@ -9,6 +9,12 @@ h1 {
     text-align: center;
 }
 
+h6 {
+    font-family: Arial;
+    font-style: italic;
+    text-align: center;
+}
+
 #btn-front {
     margin: 20px 10px 20px 10px;
     padding: 14px 14px 14px 14px;
@@ -36,7 +42,6 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 #discoblock {
