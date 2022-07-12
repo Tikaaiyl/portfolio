@@ -16,6 +16,12 @@ h6 {
     text-align: center;
 }
 
+section {
+  section {
+      margin: 10% 20%;
+  }
+}
+
 #btn-front {
     margin: 20px 10px 20px 10px;
     padding: 14px 14px 14px 14px;
