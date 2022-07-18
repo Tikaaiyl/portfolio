@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/reactmath/static/css/main.644ddaa3.css",
-    "main.js": "/portfolio/reactmath/static/js/main.c22004aa.js",
-    "index.html": "/portfolio/reactmath/index.html",
-    "main.644ddaa3.css.map": "/portfolio/reactmath/static/css/main.644ddaa3.css.map",
-    "main.c22004aa.js.map": "/portfolio/reactmath/static/js/main.c22004aa.js.map"
+    "main.css": "/portfolio/mathgame/static/css/main.644ddaa3.css",
+    "main.js": "/portfolio/mathgame/static/js/main.c22004aa.js",
+    "index.html": "/portfolio/mathgame/index.html",
+    "main.644ddaa3.css.map": "/portfolio/mathgame/static/css/main.644ddaa3.css.map",
+    "main.c22004aa.js.map": "/portfolio/mathgame/static/js/main.c22004aa.js.map"
   },
   "entrypoints": [
     "static/css/main.644ddaa3.css",
