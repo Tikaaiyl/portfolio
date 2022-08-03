@@ -2,6 +2,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
+    font-family: Trebuchet;
 }
 
 h1 {
@@ -20,6 +21,10 @@ section {
   section {
       margin: 10% 20%;
   }
+}
+
+.padded-sub-titles {
+  padding: 7px;
 }
 
 #btn-front {
