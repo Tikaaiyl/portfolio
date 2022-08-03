@@ -77,6 +77,11 @@ section {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.btn-name a:link,
+.btn-name a:visited {
+  color: #fff;
+}
+
 .btn-credits {
     width: 90%;
     padding: 7px;
