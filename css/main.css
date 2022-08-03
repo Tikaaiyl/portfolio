@@ -51,6 +51,46 @@ section {
     justify-content: center;
 }
 
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    margin: 7px;
+    color: #fff;
+    text-align: center;
+    border: outset 7px;
+}
+
+.btn-container a:link,
+.btn-container a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-name {
+    width: 90%;
+    padding: 14px 7px 14px;
+    background: rgb(46,45,102);
+    background: linear-gradient(0deg, rgba(46,45,102,1) 1%, rgba(143,197,230,1) 100%);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-credits {
+    width: 90%;
+    padding: 7px;
+    background-color: rgb(46, 45, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.btn-credits a:link,
+.btn-credits a:visited {
+    font-weight: bold;
+    color: white;
+}
+
 #discoblock {
     position: fixed;
     width: 400px;
