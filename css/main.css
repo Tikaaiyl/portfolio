@@ -24,7 +24,7 @@ section {
 
 .padded-sub-titles {
   font-weight: bold;
-  padding: 7px;
+  padding: 7px 0 2px 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
