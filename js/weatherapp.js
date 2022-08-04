@@ -26,7 +26,7 @@ window.addEventListener('load', () => {
                 temperatureDegree.textContent = temp;
                 temperatureDescription.textContent = conditions;
                 locationTimezone.textContent = data.timezone;
-                setIcons.innerHTML = `<img src="/icons/${icon}.svg" alt="Icon">`;
+                setIcons.innerHTML = `<img src="icons/${icon}.svg" alt="Icon">`;
                 // C F Formula
                 let fahrenheit = (temp) * (9/5) + 32;
 
