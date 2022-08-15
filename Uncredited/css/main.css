@@ -87,6 +87,8 @@ section {
 .projects li:hover,
 .cssprojects li:hover {
     background-color: rgb(169, 125, 187);
+    width: 100%;
+    height: 100%;
 }
 
 .studies a,
