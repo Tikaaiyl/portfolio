@@ -79,7 +79,7 @@ a, button {
 .projects a li,
 .cssprojects a li {
     width: 200px;
-    height: 200px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
