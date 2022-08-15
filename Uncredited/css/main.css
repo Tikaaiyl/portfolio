@@ -64,6 +64,7 @@ section {
 .projects,
 .cssprojects {
     position: relative;
+        overflow: hidden;
 }
 
 
@@ -92,7 +93,6 @@ section {
     border-radius: 5px;
     opacity: 0;
     visibility: visible;
-    overflow: hidden;
 }
 
 .studies a li,
