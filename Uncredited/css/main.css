@@ -104,7 +104,7 @@ section {
     transition: all 0.4s ease;
 }
 
-.studies li a,
+.studies li,
 .csstutorials li,
 .projects li,
 .cssprojects li {
