@@ -92,6 +92,7 @@ section {
     border-radius: 5px;
     opacity: 0;
     visibility: visible;
+    pointer-events: none;
 }
 
 .studies a li,
@@ -103,7 +104,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    pointer-events: none;
 }
 
 .studies a li:hover,
