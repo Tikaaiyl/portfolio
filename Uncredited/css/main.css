@@ -50,45 +50,6 @@ section {
     position: relative;
 }
 
-.studies ul,
-.csstutorials ul,
-.projects ul,
-.cssprojects ul {
-    position: absolute;
-    margin-top: 10px;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    background: rgb(36, 2, 26);
-    border-radius: 5px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
-    transition: all 0.4s ease;
-}
-
-.studies li,
-.csstutorials li,
-.projects li,
-.cssprojects li {
-    width: 200px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.studies li:hover,
-.csstutorials li:hover,
-.projects li:hover,
-.cssprojects li:hover {
-    background-color: rgb(169, 125, 187);
-}
-
 .studies a,
 .csstutorials a,
 .projects a,
@@ -116,14 +77,53 @@ section {
 .studies button:focus + ul,
 .csstutorials button:focus + ul,
 .projects button:focus + ul,
-.cssprojects button:focus + ul{
+.cssprojects button:focus + ul {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
 }
 
+.studies ul,
+.csstutorials ul,
+.projects ul,
+.cssprojects ul {
+    position: absolute;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    background: rgb(36, 2, 26);
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
+}
+
+.studies li,
+.csstutorials li,
+.projects li,
+.cssprojects li a {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studies li:hover,
+.csstutorials li:hover,
+.projects li:hover,
+.cssprojects li:hover {
+    background-color: rgb(169, 125, 187);
+}
 
 /*menu end*/
+
 .row {
     display: flex;
     flex-direction: row;
