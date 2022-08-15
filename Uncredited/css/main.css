@@ -183,7 +183,7 @@ section {
 }
 
 .btn-name {
-    width: 90%;
+    width: 100%;
     padding: 14px 7px 14px;
     background: rgb(46,45,102);
     background: linear-gradient(0deg, rgba(46,45,102,1) 1%, rgba(143,197,230,1) 100%);
