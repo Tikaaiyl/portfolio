@@ -51,10 +51,10 @@ a, button {
     transition: all 0.4s ease;
 }
 
-.studies li,
-.csstutorials li,
-.projects li,
-.cssprojects li {
+.studies a li,
+.csstutorials a li,
+.projects a li,
+.cssprojects a li {
     width: 100%;
     height: 100%;
     display: flex;
@@ -62,10 +62,10 @@ a, button {
     align-items: center;
 }
 
-.studies li:hover,
-.csstutorials li:hover,
-.projects li:hover,
-.cssprojects li:hover {
+.studies a li:hover,
+.csstutorials a li:hover,
+.projects a li:hover,
+.cssprojects a li:hover {
     background-color: rgb(169, 125, 187);
 }
 
@@ -77,7 +77,7 @@ a, button {
     text-decoration: none;
 }
 
-.dropdown button, 
+.dropdown button,
 .homeBtn a {
     background: none;
     border: none;
@@ -88,7 +88,7 @@ a, button {
     cursor: pointer;
 }
 
-.dropdown button:hover, 
+.dropdown button:hover,
 .homeBtn a:hover {
     color: rgb(169, 125, 187);
 }
