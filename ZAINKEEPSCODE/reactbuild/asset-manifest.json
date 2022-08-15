@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/ZAINKEEPSCODE/reactbuild/static/css/main.7bdb52b0.css",
+    "main.js": "/portfolio/ZAINKEEPSCODE/reactbuild/static/js/main.e7b6af9c.js",
+    "static/js/787.512dd3f2.chunk.js": "/portfolio/ZAINKEEPSCODE/reactbuild/static/js/787.512dd3f2.chunk.js",
+    "static/media/ecommerce.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/ecommerce.522da76635d52117102b.png",
+    "static/media/sidebar.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/sidebar.b2225070b8adae68d063.png",
+    "static/media/musicapp.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/boy.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/glassesimoji.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/hoc.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/hoc.e6af51fc04c57ae67096.png",
+    "static/media/thumbup.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/portfolio/ZAINKEEPSCODE/reactbuild/index.html",
+    "static/media/Resume.txt": "/portfolio/ZAINKEEPSCODE/reactbuild/static/media/Resume.31d6cfe0d16ae931b73c.txt",
+    "main.7bdb52b0.css.map": "/portfolio/ZAINKEEPSCODE/reactbuild/static/css/main.7bdb52b0.css.map",
+    "main.e7b6af9c.js.map": "/portfolio/ZAINKEEPSCODE/reactbuild/static/js/main.e7b6af9c.js.map",
+    "787.512dd3f2.chunk.js.map": "/portfolio/ZAINKEEPSCODE/reactbuild/static/js/787.512dd3f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bdb52b0.css",
+    "static/js/main.e7b6af9c.js"
+  ]
+}
