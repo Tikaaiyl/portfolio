@@ -75,7 +75,7 @@ section {
 .csstutorials li,
 .projects li,
 .cssprojects li {
-    width: 100%;
+    width: 200px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -87,8 +87,6 @@ section {
 .projects li:hover,
 .cssprojects li:hover {
     background-color: rgb(169, 125, 187);
-    width: 200px;
-    min-height: 100%;
 }
 
 .studies a,
