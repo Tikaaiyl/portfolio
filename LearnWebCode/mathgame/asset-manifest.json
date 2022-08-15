@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/mathgame/static/css/main.644ddaa3.css",
-    "main.js": "/portfolio/mathgame/static/js/main.c22004aa.js",
-    "index.html": "/portfolio/mathgame/index.html",
-    "main.644ddaa3.css.map": "/portfolio/mathgame/static/css/main.644ddaa3.css.map",
-    "main.c22004aa.js.map": "/portfolio/mathgame/static/js/main.c22004aa.js.map"
+    "main.css": "/portfolio/LearnWebCode/mathgame/static/css/main.644ddaa3.css",
+    "main.js": "/portfolio/LearnWebCode/mathgame/static/js/main.c22004aa.js",
+    "index.html": "/portfolio/LearnWebCode/mathgame/index.html",
+    "main.644ddaa3.css.map": "/portfolio/LearnWebCode/mathgame/static/css/main.644ddaa3.css.map",
+    "main.c22004aa.js.map": "/portfolio/LearnWebCode/mathgame/static/js/main.c22004aa.js.map"
   },
   "entrypoints": [
     "static/css/main.644ddaa3.css",
