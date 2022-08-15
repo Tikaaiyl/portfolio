@@ -117,7 +117,6 @@ section {
 .projects a li:focus,
 .cssprojects a li:focus {
   background-color: rgb(169, 125, 187);
-  pointer-events: all;
 }
 
 .studies button:focus + ul,
@@ -126,6 +125,7 @@ section {
 .cssprojects button:focus + ul{
     opacity: 1;
     visibility: visible;
+    pointer-events: all;
 }
 
 /*menu end*/
