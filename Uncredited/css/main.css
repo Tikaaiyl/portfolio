@@ -1,7 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #000000;
-    color: #ffffff;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a, button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
@@ -17,10 +29,106 @@ h6 {
 }
 
 section {
-  section {
       margin: 10% 20%;
-  }
 }
+
+/*menu*/
+
+.dropdown {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.dropdown button,
+.homeBtn a {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown button:hover,
+.homeBtn a:hover {
+    color: rgb(169, 125, 187);
+}
+
+.studies,
+.csstutorials,
+.projects,
+.cssprojects {
+    position: relative;
+}
+
+
+.studies a,
+.csstutorials a,
+.projects a,
+.cssprojects a {
+    color: white;
+    text-decoration: none;
+}
+
+.studies ul,
+.csstutorials ul,
+.projects ul,
+.cssprojects ul {
+    position: absolute;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background: rgb(36, 2, 26);
+    border-radius: 5px;
+    opacity: 0;
+    visibility: visible;
+}
+
+.studies a li,
+.csstutorials a li,
+.projects a li,
+.cssprojects a li {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studies a li:hover,
+.csstutorials a li:hover,
+.projects a li:hover,
+.cssprojects a li:hover {
+    background-color: rgb(169, 125, 187);
+}
+
+.studies a li:focus,
+.csstutorials a li:focus,
+.projects a li:focus,
+.cssprojects a li:focus {
+  background-color: rgb(169, 125, 187);
+  pointer-events: all;
+}
+
+.studies button:focus + ul,
+.csstutorials button:focus + ul,
+.projects button:focus + ul,
+.cssprojects button:focus + ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+/*menu end*/
 
 .padded-sub-titles {
   font-weight: bold;
