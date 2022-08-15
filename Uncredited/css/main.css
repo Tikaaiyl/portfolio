@@ -60,7 +60,7 @@ section {
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 7px;
     align-items: center;
     list-style: none;
     background: rgb(36, 2, 26);
