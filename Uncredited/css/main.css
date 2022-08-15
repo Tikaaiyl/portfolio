@@ -43,36 +43,11 @@ section {
     margin: auto;
 }
 
-.dropdown button,
-.homeBtn a {
-    background: none;
-    border: none;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.dropdown button:hover,
-.homeBtn a:hover {
-    color: rgb(169, 125, 187);
-}
-
 .studies,
 .csstutorials,
 .projects,
 .cssprojects {
     position: relative;
-}
-
-
-.studies a,
-.csstutorials a,
-.projects a,
-.cssprojects a {
-    color: white;
-    text-decoration: none;
 }
 
 .studies ul,
@@ -92,33 +67,50 @@ section {
     border-radius: 5px;
     opacity: 0;
     visibility: hidden;
-    overflow: hidden;
+    transform: translateY(10px);
+    transition: all 0.4s ease;
 }
 
-.studies a li,
-.csstutorials a li,
-.projects a li,
-.cssprojects a li {
-    width: 200px;
+.studies li,
+.csstutorials li,
+.projects li,
+.cssprojects li {
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.studies a li:hover,
-.csstutorials a li:hover,
-.projects a li:hover,
-.cssprojects a li:hover {
+.studies li:hover,
+.csstutorials li:hover,
+.projects li:hover,
+.cssprojects li:hover {
     background-color: rgb(169, 125, 187);
 }
 
-.studies a li:focus,
-.csstutorials a li:focus,
-.projects a li:focus,
-.cssprojects a li:focus {
-    background-color: rgb(169, 125, 187);
-    pointer-events: all;
+.studies a,
+.csstutorials a,
+.projects a,
+.cssprojects a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown button,
+.homeBtn a {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown button:hover,
+.homeBtn a:hover {
+    color: rgb(169, 125, 187);
 }
 
 .studies button:focus + ul,
@@ -127,7 +119,9 @@ section {
 .cssprojects button:focus + ul{
     opacity: 1;
     visibility: visible;
+    transform: translateY(0px);
 }
+
 
 /*menu end*/
 .row {
