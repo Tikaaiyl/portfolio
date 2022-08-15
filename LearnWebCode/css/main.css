@@ -1,7 +1,5 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
     height: 100vh;
     background-color: #000;
     color: #fff;
@@ -29,8 +27,10 @@ section {
     margin: 10% 20%;
 }
 
-header {
-
+header > * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*menu*/
