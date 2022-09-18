@@ -123,6 +123,7 @@ a, button {
     .latest {
         text-decoration: underline;
         font-weight: bold;
+        margin-bottom: 10px;
     }
     .newsitem {
         display: flex;
