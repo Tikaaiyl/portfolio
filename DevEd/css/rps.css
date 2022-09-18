@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    background-color: lightslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.score {
+    color:ivory;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score h2 {
+    font-size: 30px;
+    padding: 2px;
+    border-bottom: 1px dashed;
+}
+
+.score p {
+    text-align: center;
+    padding: 7px;
+    font-size: 25px;
+}
+
+.intro {
+    color:ivory;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity 0.5s ease;
+}
+
+.intro h1 {
+    font-size: 50px;
+}
+
+.intro button,
+.match button {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: ivory;
+    font-size: 20px;
+    background-color:darksalmon;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.match {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.5s;
+}
+
+.winner {
+    color:ivory;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hands, .options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-hand {
+    transform: rotateY(180deg);
+}
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}
+
+@keyframes shakePlayer {
+    0% {
+        transform: rotateY(180deg) translateY(0px);
+    }
+    20% {
+        transform: rotateY(180deg) translateY(-50px);
+    }
+    40% {
+        transform: rotateY(180deg) translateY(0px) translateX(-30px);
+    }
+    60% {
+        transform: rotateY(180deg) translateY(-50px);
+    }
+    80% {
+        transform: rotateY(180deg) translateY(0px) translateX(-30px);
+    }
+    90% {
+        transform: rotateY(180deg) translateY(-50px);
+    }
+    100% {
+        transform: rotateY(180deg) translateY(0px);
+    }
+}
+
+@keyframes shakeComputer {
+    0% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(-50px);
+    }
+    40% {
+        transform: translateY(0px) translateX(-30px);
+    }
+    60% {
+        transform: translateY(-50px);
+    }
+    80% {
+        transform: translateY(0px) translateX(-30px);
+    }
+    90% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
