@@ -118,7 +118,7 @@ a, button {
     text-align: center;
     width: 80%;
     background-color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
     .latest {
         text-decoration: underline;
