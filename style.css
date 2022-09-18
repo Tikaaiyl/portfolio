@@ -122,13 +122,13 @@ a, button {
 }
     .latest {
         text-decoration: underline;
+        font-weight: bold;
     }
     .newsitem {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 5px;
     }
         .date {
             font-weight: bold;
