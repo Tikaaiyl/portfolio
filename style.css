@@ -101,3 +101,9 @@ a, button {
     visibility: visible;
     transform: translateY(0px);
 }
+
+.newsbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
