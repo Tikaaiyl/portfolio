@@ -119,3 +119,6 @@ a, button {
         justify-content: center;
         gap: 5px;
     }
+        .date {
+            font-weight: bold;
+        }
