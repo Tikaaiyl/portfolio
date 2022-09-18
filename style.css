@@ -102,6 +102,14 @@ a, button {
     transform: translateY(0px);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
 .newsbox {
     display: flex;
     flex-direction: column;
