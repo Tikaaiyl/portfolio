@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+.animation {
+    height: 100vh;
+    background: rgb(255,245,197);
+    background: radial-gradient(circle, rgba(255,245,197,1) 0%, rgba(173,200,213,1) 83%);
+    position: relative;
+    overflow: hidden;
+}
+
+.paper-plane {
+    position: absolute;
+    height: 100px;
+    top: 50%;
+    left: 0%;
+}
