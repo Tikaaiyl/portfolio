@@ -135,3 +135,9 @@ a, button {
         .date {
             font-weight: bold;
         }
+        .thumbnailDate {
+            flex-direction: column;
+        }
+            .recentImg {
+                height: 50px;
+            }
