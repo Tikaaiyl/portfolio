@@ -124,10 +124,14 @@ a, button {
     display: flex;
     flex-direction: column;
     flex: 100px;
+    text-align: center;
+    font-weight: bold;
+    gap: 7px;
 }
 
 .newsCol {
     display: flex;
     flex-direction: column;
     flex: 2;
+    gap: 7px;
 }
