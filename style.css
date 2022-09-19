@@ -146,5 +146,5 @@ p:first-child {
 
 .thumbnail {
     width: 150px;
-    padding: 4px;
+    padding: 0px 4px 0px 4px;
 }
