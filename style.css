@@ -114,8 +114,7 @@ a, button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
     width: 80%;
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
