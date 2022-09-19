@@ -137,7 +137,7 @@ a, button {
 .details {
     border-top: 1px dashed #000;
     padding-top: 4px;
-    height: 100px;
+    height: 120px;
 }
 
 p:first-child {
@@ -146,4 +146,5 @@ p:first-child {
 
 .thumbnail {
     width: 150px;
+    padding: 4px;
 }
