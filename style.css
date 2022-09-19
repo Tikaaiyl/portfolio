@@ -141,3 +141,24 @@ a, button {
             .recentImg {
                 height: 100px;
             }
+
+.newsBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dateCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsCol {
+    display: flex;
+    flex-direction: column;
+}
