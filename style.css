@@ -143,8 +143,10 @@ a, button {
 
 p:first-child {
     border: none;
+    padding-top: 4px;
 }
 
 .thumbnail {
     width: 150px;
+    margin-left: 7px;
 }
