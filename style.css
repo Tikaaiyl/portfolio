@@ -118,6 +118,7 @@ a, button {
     width: 80%;
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    gap: 7px;
 }
 
 .thumbCol {
@@ -146,5 +147,4 @@ p:first-child {
 
 .thumbnail {
     width: 150px;
-    padding: 0px 4px 0px 4px;
 }
