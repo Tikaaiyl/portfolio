@@ -110,38 +110,6 @@ a, button {
     width: 100vw;
 }
 
-.newsbox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    width: 80%;
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-    .latest {
-        text-decoration: underline;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-    .newsitem {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        gap: 5px;
-    }
-        .date {
-            font-weight: bold;
-        }
-        .thumbnailDate {
-            flex-direction: column;
-        }
-            .recentImg {
-                height: 100px;
-            }
-
 .newsBox {
     display: flex;
     flex-direction: row;
