@@ -135,3 +135,7 @@ a, button {
     flex: 2;
     gap: 7px;
 }
+
+.details {
+    border-top: 2px solid #000;
+}
