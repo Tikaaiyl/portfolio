@@ -138,6 +138,7 @@ a, button {
 
 .details {
     border-top: 1px dashed #000;
+    padding: 4px;
 }
 
 p:first-child {
